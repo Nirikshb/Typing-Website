@@ -2,7 +2,12 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className="App">
+      <GlobalStyles/>
+      <div>Header</div>
+      <TypingBox/>
+      <div>Footer</div>
+      </div>
   )
 }
 

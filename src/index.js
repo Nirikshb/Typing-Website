@@ -7,7 +7,11 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <TestModeContextProvider>
     <App />
+    {/* app wrapped around provider now providing access to everythinh */}
+    </TestModeContextProvider>
+    
   </React.StrictMode>
 );
 
