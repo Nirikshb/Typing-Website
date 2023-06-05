@@ -13,7 +13,9 @@ const TableUserData = ({ data }) => {
   return (
     <div className='table'>
         <TableContainer>
-            <Table>
+         
+         
+       <Table>
                 <TableHead>
                     <TableRow>
                         <TableCell style={cellStyle}>

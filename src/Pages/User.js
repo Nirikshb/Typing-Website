@@ -13,7 +13,7 @@ import { useTheme } from "../Context/ThemeContext";
 const User = () => {
 
     const [data, setData] = useState([]);
-    const [graphData, setGraphData] = useState([]);
+       const [graphData, setGraphData] = useState([]);
     const [user, loading] = useAuthState(auth);
     const navigate = useNavigate();
     const {theme} = useTheme();

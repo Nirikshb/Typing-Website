@@ -24,11 +24,12 @@ const Footer = () => {
   }
 
   const handleGithub = (e) =>{
+    
     window.open("https://github.com/Nirikshb/Typing-Website", '_blank');
   }
 
   const handleLinkedin = () =>{
-    window.open("https://www.linkedin.com/in/niriksh-bharti-862ba3136/", '_blank');
+      window.open("https://www.linkedin.com/in/niriksh-bharti-862ba3136/", '_blank');
   }
   
   const handleDocs = () =>{

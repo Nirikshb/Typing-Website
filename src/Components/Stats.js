@@ -20,7 +20,7 @@ const Stats = (
     let timeSet = new Set();
     const newGraph = graphData.filter(i => {
         if (!timeSet.has(i[0])) {
-            timeSet.add(i[0]);
+             timeSet.add(i[0]);
             return i;
         }
     })
