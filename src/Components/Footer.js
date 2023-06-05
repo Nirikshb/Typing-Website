@@ -33,7 +33,7 @@ const Footer = () => {
   }
   
   const handleDocs = () =>{
-    window.open("");
+    window.open("https://docs.google.com/document/d/1HtOnyhMdCwsNbXUzMSo07YaCthKs8O2ZKjGlYUWQpQE/edit");
   }
 
 
