@@ -33,7 +33,7 @@ const Footer = () => {
   }
   
   const handleDocs = () =>{
-    window.open("https://docs.google.com/document/d/1HtOnyhMdCwsNbXUzMSo07YaCthKs8O2ZKjGlYUWQpQE/edit", '_blank');
+    window.open("https://docs.google.com/document/d/14oZ1HpCgtT-0ZbuiMr9SOH1ov88xnQA2-hq08U--Hsk/edit?usp=sharing", '_blank');
   }
 
 
