@@ -101,9 +101,14 @@ const Stats = (
                 <div className="subtitle">{correctChars}/{incorrectChars}/{missedChars}/{extraChars}</div>
                 <div><Button variant="contained" onClick={()=>{resetTest()}} >Back to Test</Button></div>
             </div>
+
             <div className="right-stats">
                 {/* graph will go here */}
                 <Graph graphData={newGraph} />
+
+            <div className="highest">
+              
+            </div>
             </div>
         </div>
     )

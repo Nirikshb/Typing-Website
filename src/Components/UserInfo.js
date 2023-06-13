@@ -28,7 +28,9 @@ const UserInfo = ({ totalTestTaken }) => {
                 </div>
             </div>
             <div className="total-tests">
-                <span>Total Test Taken: {totalTestTaken}</span>
+                <span>Total Test Taken: {totalTestTaken}
+                 
+                </span>
             </div>
         </div>
     )
