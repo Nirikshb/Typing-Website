@@ -57,13 +57,15 @@ const User = () => {
         <div className="canvas user-canvas">
             <Header />
             <UserInfo totalTestTaken={data.length} />
-            {data.map((wpm, index)=>{
-                <p key={index}> {wpm} </p>
-            })}
+            
             <div className="graph-user-page">
                 <Graph graphData={graphData} type='date' />
             </div>
-            <TableUserData data={data} />
+            <TableUserData data={data} 
+            {data.map((wpm, index)=>{
+                <p key={index}> {wpm} </p>
+            })}
+            />
             <Footer />
         </div>
     )
