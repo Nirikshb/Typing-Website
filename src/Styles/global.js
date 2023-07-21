@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 // Define global styles using createGlobalStyle
-export const GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
   /* Define CSS variables (colors) */
   :root {
     --black: #111;
@@ -300,3 +300,4 @@ export const GlobalStyles = createGlobalStyle`
     width: 1rem;
   }
 `;
+export default GlobalStyles;
