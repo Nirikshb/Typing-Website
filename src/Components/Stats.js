@@ -12,7 +12,7 @@ const Stats = (
         incorrectChars,
         missedChars,
         extraChars,
-      graphData,
+        graphData,
         resetTest
     }
 ) => {
@@ -20,7 +20,7 @@ const Stats = (
     let timeSet = new Set();
     const newGraph = graphData.filter(i => {
         if (!timeSet.has(i[0])) {
-             timeSet.add(i[0]);
+            timeSet.add(i[0]);
             return i;
         }
     })
@@ -101,14 +101,9 @@ const Stats = (
                 <div className="subtitle">{correctChars}/{incorrectChars}/{missedChars}/{extraChars}</div>
                 <div><Button variant="contained" onClick={()=>{resetTest()}} >Back to Test</Button></div>
             </div>
-
             <div className="right-stats">
                 {/* graph will go here */}
                 <Graph graphData={newGraph} />
-
-            <div className="highest">
-              
-            </div>
             </div>
         </div>
     )

@@ -9,7 +9,6 @@ import errorMapping from "../Utils/errorMapping";
 const LoginForm = ({ handleClose }) => {
 
     const [email, setEmail] = useState('');
-    
     const [password, setPassword] = useState('');
     const {theme} = useTheme();
 

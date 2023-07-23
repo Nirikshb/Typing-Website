@@ -14,8 +14,7 @@ const SignUpForm = ({ handleClose }) => {
 
     const handleSubmit = () =>{
         if(!email || !password || !confirmPassword){
-     
-             toast.warning('Fill all details', {
+            toast.warning('Fill all details', {
                 position: "top-right",
                 autoClose: 5000,
                 hideProgressBar: false,

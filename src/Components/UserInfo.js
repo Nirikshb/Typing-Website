@@ -13,7 +13,6 @@ const UserInfo = ({ totalTestTaken }) => {
                     <AccountCircleIcon style={{
                         display: 'flex',
                         transform: 'scale(6)',
-                    
                         margin: 'auto',
                         marginTop: '3.5rem'
                     }} />
